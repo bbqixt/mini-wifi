@@ -1,0 +1,28 @@
+{
+    "name": "mini-wifi",
+    "version": "1.0.0",
+    "description": "mini-wifi phone number management system",
+    "keywords": ["phone", "number", "wifi"],
+    "license": "MIT",
+    "homepage": "https://github.com/bbqixt/mini-wifi",
+    "bug": "https://github.com/bbqixt/mini-wifi/issues",
+    "author": {
+        "name": "Xianghan Wang",
+        "email": "coldume@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bbqixt/mini-wifi.git"
+    },
+    "dependencies": {
+        "leveldown": "1.1.*",
+        "levelup": "1.1.*",
+        "promisify": "https://github.com/coolwust/promisify.git"
+    },
+    "devDependencies": {
+        "mocha": "2.*"
+    },
+    "engines": {
+        "node": ">=0.10"
+    }
+}
